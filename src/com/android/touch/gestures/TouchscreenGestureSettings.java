@@ -90,6 +90,9 @@ public class TouchscreenGestureSettings extends CollapsingToolbarBaseActivity
         private void initTouchscreenGestures() {
             final LineageHardwareManager manager = LineageHardwareManager.getInstance(getContext());
             mTouchscreenGestures = manager.getTouchscreenGestures();
+            if (mTouchscreenGestures == null || mTouchscreenGestures.length == 0) {
+                return;
+            }
             final int[] actions = getDefaultGestureActions(getContext(), mTouchscreenGestures);
             for (final TouchscreenGesture gesture : mTouchscreenGestures) {
                 getPreferenceScreen().addPreference(new TouchscreenGesturePreference(
@@ -156,7 +159,9 @@ public class TouchscreenGestureSettings extends CollapsingToolbarBaseActivity
 
             final LineageHardwareManager manager = LineageHardwareManager.getInstance(context);
             final TouchscreenGesture[] gestures = manager.getTouchscreenGestures();
-            final int[] actionList = buildOldActionList(context, gestures);
+            if (gestures == null || gestures.length == 0) {
+                return;
+            }
             final SharedPreferences oldPrefs = PreferenceManager.getDefaultSharedPreferences(context);
             final SharedPreferences.Editor oldPrefsEditor = oldPrefs.edit();
             final SharedPreferences newPrefs = TouchscreenGestureConstants.getDESharedPrefs(context);
@@ -181,6 +186,9 @@ public class TouchscreenGestureSettings extends CollapsingToolbarBaseActivity
 
             final LineageHardwareManager manager = LineageHardwareManager.getInstance(context);
             final TouchscreenGesture[] gestures = manager.getTouchscreenGestures();
+            if (gestures == null || gestures.length == 0) {
+                return;
+            }
             final int[] actionList = buildActionList(context, gestures);
             for (final TouchscreenGesture gesture : gestures) {
                 manager.setTouchscreenGestureEnabled(gesture, actionList[gesture.id] > 0);
@@ -196,14 +204,19 @@ public class TouchscreenGestureSettings extends CollapsingToolbarBaseActivity
 
         private static int[] getDefaultGestureActions(final Context context,
                 final TouchscreenGesture[] gestures) {
-            final int[] defaultActions = context.getResources().getIntArray(
-                    R.array.config_defaultTouchscreenGestureActions);
-            if (defaultActions.length >= gestures.length) {
-                return defaultActions;
+            if (gestures == null || gestures.length == 0) {
+                return new int[0];
             }
 
+            final int[] defaultActions = context.getResources().getIntArray(
+                    R.array.config_defaultTouchscreenGestureActions);
             final int[] filledDefaultActions = new int[gestures.length];
-            System.arraycopy(defaultActions, 0, filledDefaultActions, 0, defaultActions.length);
+            if (defaultActions == null || defaultActions.length == 0) {
+                return filledDefaultActions;
+            }
+
+            System.arraycopy(defaultActions, 0, filledDefaultActions, 0,
+                    Math.min(defaultActions.length, gestures.length));
             return filledDefaultActions;
         }
 
@@ -221,6 +234,9 @@ public class TouchscreenGestureSettings extends CollapsingToolbarBaseActivity
 
         private static int[] buildActions(final Context context,
                 final TouchscreenGesture[] gestures, final SharedPreferences prefs) {
+            if (gestures == null || gestures.length == 0) {
+                return new int[0];
+            }
             final int[] result = new int[gestures.length];
             final int[] defaultActions = getDefaultGestureActions(context, gestures);
             for (final TouchscreenGesture gesture : gestures) {
@@ -237,6 +253,9 @@ public class TouchscreenGestureSettings extends CollapsingToolbarBaseActivity
 
         private static void sendUpdateBroadcast(final Context context,
                 final TouchscreenGesture[] gestures) {
+            if (gestures == null || gestures.length == 0) {
+                return;
+            }
             final Intent intent = new Intent(TouchscreenGestureConstants.UPDATE_PREFS_ACTION);
             final int[] keycodes = new int[gestures.length];
             final int[] actions = buildActionList(context, gestures);
