@@ -4,7 +4,7 @@
     <string name="touchscreen_gesture_settings_summary">দ্রুত কাজ করার জন্য টাচস্ক্রীনের ইশারাসমূহ ব্যবহার করুন</string>
     <string name="touchscreen_gestures_haptic_feedback_title">কম্পন প্রতিক্রিয়া</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">টাচস্ক্রীনে ইশারা শনাক্ত হলে কম্পিত হবে</string>
-    <string name="touchscreen_gesture_two_finger_down_swipe_title">দুই আঙুল দিয়ে নিচে টানুন</string>
+    <string name="touchscreen_gesture_two_fingers_down_swipe_title">দুই আঙুল দিয়ে নিচে টানুন</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">এক আঙুল দিয়ে উপরে টানুন</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">হোম বাটনটি থেকে উপরে সোয়াইপ করুন</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">এক আঙুল দিয়ে নিচে টানুন</string>

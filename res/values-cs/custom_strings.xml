@@ -4,7 +4,7 @@
     <string name="touchscreen_gesture_settings_summary">Možnost spustit rychlou akci pomocí různých gest na obrazovce</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Hmatová odezva</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">Vibrovat při detekci gesta na obrazovce</string>
-    <string name="touchscreen_gesture_two_finger_down_swipe_title">Přejetí dolů dvěma prsty</string>
+    <string name="touchscreen_gesture_two_fingers_down_swipe_title">Přejetí dolů dvěma prsty</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">Přejetí nahoru jedním prstem</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Přejetí prstem nahoru od tlačítka Domů</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Přejetí dolů jedním prstem</string>

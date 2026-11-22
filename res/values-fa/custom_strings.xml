@@ -4,7 +4,7 @@
     <string name="touchscreen_gesture_settings_summary">انجام حرکات لمسی مختلف برای عمل‌های سریع</string>
     <string name="touchscreen_gestures_haptic_feedback_title">عکس‌العمل‌ قابل لمس</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">لرزیدن هنگامی که حرکات صفحه ی لمسی تشخیص داده شود</string>
-    <string name="touchscreen_gesture_two_finger_down_swipe_title">پایین کشیدن با دو انگشت</string>
+    <string name="touchscreen_gesture_two_fingers_down_swipe_title">پایین کشیدن با دو انگشت</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">بالا کشیدن با یک انگشت</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">بالا کشیدن از کلید خانه</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">پایین کشیدن با یک انگشت</string>

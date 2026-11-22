@@ -4,7 +4,7 @@
     <string name="touchscreen_gesture_settings_summary">Különböző képernyő-mozdulatvezérlések végrehajtása a gyors műveletekhez</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Rezgő visszajelzés</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">Az érintőképernyő kézmozdulat észlelésekor rezegni fog</string>
-    <string name="touchscreen_gesture_two_finger_down_swipe_title">Csúsztatás lefelé két ujjal</string>
+    <string name="touchscreen_gesture_two_fingers_down_swipe_title">Csúsztatás lefelé két ujjal</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">Csúsztatás felfelé egy ujjal</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Csúsztatás felfelé a Kezdőlap gombról</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Csúsztatás lefelé egy ujjal</string>

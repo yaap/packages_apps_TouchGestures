@@ -4,7 +4,7 @@
     <string name="touchscreen_gesture_settings_summary">Cəld hərəkətlər üçün cürbəcür toxunaqlı ekran jestlərini həyata keçirin</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Toxunuş əks əlaqəsi</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">Toxunaqlı ekran jestləri aşkarlananda titrət</string>
-    <string name="touchscreen_gesture_two_finger_down_swipe_title">İki barmaqla aşağı sürüşdür</string>
+    <string name="touchscreen_gesture_two_fingers_down_swipe_title">İki barmaqla aşağı sürüşdür</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">Bir barmaqla aşağı sürüşdür</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Əsas ekran düyməsini yuxarı sürüşdür</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Bir barmaqla aşağı sürüşdür</string>
