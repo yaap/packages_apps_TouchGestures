@@ -19,12 +19,11 @@
 package com.android.settings.custom.preference;
 
 import android.content.Context;
+import android.provider.Settings;
 import android.util.AttributeSet;
 
-import androidx.preference.SwitchPreferenceCompat;
 import androidx.preference.PreferenceDataStore;
-
-import android.provider.Settings;
+import androidx.preference.SwitchPreferenceCompat;
 
 public class SystemSettingSwitchPreference extends SwitchPreferenceCompat {
 
