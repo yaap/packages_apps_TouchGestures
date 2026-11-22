@@ -4,7 +4,7 @@
     <string name="touchscreen_gesture_settings_summary">Lakukan pelbagai isyarat skrin sentuh untuk tindakan pantas</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Tindakbalas haptik</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">Bergetar apabila gerak isyarat skrin dikesan</string>
-    <string name="touchscreen_gesture_two_finger_down_swipe_title">Sapu ke bawah dengan dua jari</string>
+    <string name="touchscreen_gesture_two_fingers_down_swipe_title">Sapu ke bawah dengan dua jari</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">Sapu ke atas dengan satu jari</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Leret ke atas dari butang utama</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Sapu ke bawah dengan satu jari</string>

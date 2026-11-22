@@ -4,7 +4,7 @@
     <string name="touchscreen_gesture_settings_summary">Realizar varios gestos en pantalla para acciones rápidas</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Respuesta háptica</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">Vibrar cuando se detecta un gesto táctil</string>
-    <string name="touchscreen_gesture_two_finger_down_swipe_title">Deslizar hacia abajo con dos dedos</string>
+    <string name="touchscreen_gesture_two_fingers_down_swipe_title">Deslizar hacia abajo con dos dedos</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">Deslizar hacia arriba con un dedo</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Deslizar hacia arriba desde el botón inicio</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Deslizar hacia abajo con un dedo</string>

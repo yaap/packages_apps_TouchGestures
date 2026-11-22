@@ -4,7 +4,7 @@
     <string name="touchscreen_gesture_settings_summary">Atlikite įvairius liečiamo ekrano gestus, kad galėtumėte greitai atlikti veiksmus</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Liečiamasis atsiliepimas</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">Vibruokite, kai aptinkamas jutiklinio ekrano gestas</string>
-    <string name="touchscreen_gesture_two_finger_down_swipe_title">Braukti žemyn su dviem pirštais</string>
+    <string name="touchscreen_gesture_two_fingers_down_swipe_title">Braukti žemyn su dviem pirštais</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">Braukti aukštyn su vienu pirštu</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Braukti aukštyn nuo namų mygtuko</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Braukti žemyn su vienu pirštu</string>

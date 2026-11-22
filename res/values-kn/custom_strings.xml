@@ -4,7 +4,7 @@
     <string name="touchscreen_gesture_settings_summary">ತ್ವರಿತ ಪ್ರತಿಕ್ರಿಯೆಗಾಗಿ ಟಚ್‌ಸ್ಕ್ರೀನ್ ಮೇಲೆ ವಿವಿಧ ಸನ್ನೆಗಳನ್ನು ಮಾಡು</string>
     <string name="touchscreen_gestures_haptic_feedback_title">ಸ್ಪಾರ್ಶ ಪ್ರತಿಕ್ರಿಯೆ</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">ಟಚ್‌ಸ್ಕ್ರೀನ್ ಗೆಸ್ಚರ್ ಪತ್ತೆಯಾದಾಗ ವೈಬ್ರೇಟ್ ಮಾಡಿ</string>
-    <string name="touchscreen_gesture_two_finger_down_swipe_title">ಎರಡು ಬೆರಳುಗಳಿಂದ ಕೆಳಗೆ ಸ್ವೈಪ್ ಮಾಡಿ</string>
+    <string name="touchscreen_gesture_two_fingers_down_swipe_title">ಎರಡು ಬೆರಳುಗಳಿಂದ ಕೆಳಗೆ ಸ್ವೈಪ್ ಮಾಡಿ</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">ಒಂದು ಬೆರಳಿನಿಂದ ಮೇಲಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">ಹೋಮ್ ಬಟನ್‌ನಿಂದ ಮೇಲಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">ಒಂದೇ ಬೆರಳಿನಿಂದ ಕೆಳಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ</string>

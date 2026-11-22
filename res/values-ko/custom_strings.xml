@@ -4,7 +4,7 @@
     <string name="touchscreen_gesture_settings_summary">다양한 터치스크린 제스처를 사용해서 빠르게 작업을 실행해요.</string>
     <string name="touchscreen_gestures_haptic_feedback_title">햅틱 피드백</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">터치스크린 제스처를 감지하면 진동이 울려요.</string>
-    <string name="touchscreen_gesture_two_finger_down_swipe_title">두 손가락으로 쓸어 내리기</string>
+    <string name="touchscreen_gesture_two_fingers_down_swipe_title">두 손가락으로 쓸어 내리기</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">한 손가락으로 쓸어 올리기</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">홈 버튼에서 위로 밀기</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">한 손가락으로 쓸어 내리기</string>

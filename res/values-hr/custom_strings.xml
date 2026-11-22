@@ -4,7 +4,7 @@
     <string name="touchscreen_gesture_settings_summary">Izvrši razne geste dodirnog zaslona za brze radnje</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Haptička povratna informacija</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">Zavibriraj nakon prepoznate geste</string>
-    <string name="touchscreen_gesture_two_finger_down_swipe_title">Povuci prema dolje s dva prsta</string>
+    <string name="touchscreen_gesture_two_fingers_down_swipe_title">Povuci prema dolje s dva prsta</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">Povuci prema gore jednim prstom</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Povucite prema gore od tipke home</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Povuci prema dolje s jednim prstom</string>

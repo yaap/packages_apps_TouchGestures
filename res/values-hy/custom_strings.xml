@@ -4,7 +4,7 @@
     <string name="touchscreen_gesture_settings_summary">Կատարեք տարբեր սենսորային ժեստեր արագ գործողությունների համար</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Արագ արձագանք</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">Թրթռալ, երբ հայտնաբերվում է սենսորային էկրանի ժեստ</string>
-    <string name="touchscreen_gesture_two_finger_down_swipe_title">Երկու մատը սահեցնել ներքև</string>
+    <string name="touchscreen_gesture_two_fingers_down_swipe_title">Երկու մատը սահեցնել ներքև</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">Մեկ մատը սահեցնել վերև</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Գլխավոր կոճակից սահեցնել վերև</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Մեկ մատը սահեցնել ներքև</string>

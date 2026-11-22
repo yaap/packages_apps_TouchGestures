@@ -21,28 +21,37 @@ import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
+import android.graphics.Rect;
 import android.os.Bundle;
 import android.os.UserHandle;
+import android.view.View;
 
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.PreferenceManager;
+import androidx.preference.PreferenceScreen;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.internal.yaap.hardware.LineageHardwareManager;
 import com.android.internal.yaap.hardware.TouchscreenGesture;
 
+import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
+import com.android.settingslib.widget.ExpressiveDesignEnabledProvider;
+import com.android.settingslib.widget.SettingsPreferenceGroupAdapter;
+import com.android.settingslib.widget.SettingsThemeHelper;
+
 import com.android.touch.gestures.R;
 import com.android.touch.gestures.utils.ResourceUtils;
 
-import java.lang.System;
-
-import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
-
 public class TouchscreenGestureSettings extends CollapsingToolbarBaseActivity
-        implements PreferenceFragment.OnPreferenceStartFragmentCallback {
+        implements PreferenceFragment.OnPreferenceStartFragmentCallback,
+        ExpressiveDesignEnabledProvider {
+
+    @Override
+    public boolean isExpressiveDesignEnabled() {
+        return SettingsThemeHelper.isExpressiveDesignEnabled();
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -95,8 +104,37 @@ public class TouchscreenGestureSettings extends CollapsingToolbarBaseActivity
             }
             final int[] actions = getDefaultGestureActions(getContext(), mTouchscreenGestures);
             for (final TouchscreenGesture gesture : mTouchscreenGestures) {
-                getPreferenceScreen().addPreference(new TouchscreenGesturePreference(
-                        getContext(), gesture, actions[gesture.id]));
+                final TouchscreenGesturePreference preference = new TouchscreenGesturePreference(
+                        getContext(), gesture, actions[gesture.id]);
+                getPreferenceScreen().addPreference(preference);
+            }
+        }
+
+        @Override
+        public void onViewCreated(View view, Bundle savedInstanceState) {
+            super.onViewCreated(view, savedInstanceState);
+            if (SettingsThemeHelper.isExpressiveTheme(getContext())) {
+                setDivider(null);
+                getListView().addItemDecoration(new ExpressiveMarginItemDecoration());
+            }
+        }
+
+        @Override
+        protected RecyclerView.Adapter<?> onCreateAdapter(PreferenceScreen preferenceScreen) {
+            if (SettingsThemeHelper.isExpressiveTheme(getContext())) {
+                return new SettingsPreferenceGroupAdapter(preferenceScreen);
+            }
+            return super.onCreateAdapter(preferenceScreen);
+        }
+
+        private static final class ExpressiveMarginItemDecoration
+                extends RecyclerView.ItemDecoration {
+            @Override
+            public void getItemOffsets(Rect outRect, View view, RecyclerView parent,
+                    RecyclerView.State state) {
+                outRect.bottom = view.getResources().getDimensionPixelSize(
+                        com.android.settingslib.widget.theme.R.dimen
+                                .settingslib_expressive_space_extrasmall1);
             }
         }
 

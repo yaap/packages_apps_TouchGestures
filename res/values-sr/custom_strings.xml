@@ -4,7 +4,7 @@
     <string name="touchscreen_gesture_settings_summary">Подеси разне гестове по екрану за брзе акције</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Вибрација при додиру</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">Вибрира при препознавању покрета.</string>
-    <string name="touchscreen_gesture_two_finger_down_swipe_title">Превуци надоле са два прста</string>
+    <string name="touchscreen_gesture_two_fingers_down_swipe_title">Превуци надоле са два прста</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">Превуци нагоре са једним прстом</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Превуци нагоре преко дугмета Почетак</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Превуци надоле једним прстом</string>
